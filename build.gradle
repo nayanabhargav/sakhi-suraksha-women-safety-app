@@ -1,0 +1,15 @@
+buildscript {
+    repositories {
+        google()
+        mavenCentral()
+    }
+    dependencies {
+        // Recommended AGP version
+        classpath 'com.android.tools.build:gradle:8.13.1'
+
+        // Latest Google Services plugin
+        classpath 'com.google.gms:google-services:4.4.2'
+    }
+}
+
+// Do NOT use allprojects anymore (deprecated)
