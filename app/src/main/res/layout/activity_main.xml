@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SakhiSurakshaa"
+            android:textSize="28sp"
+            android:padding="8dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="12dp">
+
+            <Button
+                android:id="@+id/btnContacts"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="Contacts" />
+
+            <Button
+                android:id="@+id/btnHelplines"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="Helplines"
+                android:layout_marginTop="8dp" />
+
+            <Button
+                android:id="@+id/btnLaws"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="Women Laws"
+                android:layout_marginTop="8dp" />
+
+            <Button
+                android:id="@+id/btnSelfDefense"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="Self Defense Videos"
+                android:layout_marginTop="8dp" />
+
+            <Button
+                android:id="@+id/btnPanic"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="PANIC"
+                android:layout_marginTop="16dp"
+                android:backgroundTint="#ff6b6b"
+                android:textColor="#ffffff" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
